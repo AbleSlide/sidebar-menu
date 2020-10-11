@@ -1,1 +1,5 @@
-name: lua-state-machine tes
+name: lua-state-machine test suite
+on: [push]
+jobs:
+
+ 
