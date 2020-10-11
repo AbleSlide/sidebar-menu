@@ -3,4 +3,5 @@ on: [push]
 jobs:
 
   build:
-    name: tes
+    name: test
+    runs-on: ubuntu-late
