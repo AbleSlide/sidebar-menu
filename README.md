@@ -74,3 +74,28 @@ local fsm = machine.create({
 This example will create an object with 2 event methods:
 
  * fsm:eat()
+ * fsm:rest()
+
+The `rest` event will always transition to the `hungry` state, while the `eat` event
+will transition to a state that is dependent on the current state.
+
+>> NOTE: The `rest` event could use a wildcard '*' for the 'from' state if it should be
+allowed from any current state.
+
+>> NOTE: The `rest` event in the above example can also be specified as multiple events with
+the same name if you prefer the verbose approach.
+
+Callbacks
+=========
+
+4 callbacks are available if your state machine has methods using the following naming conventions:
+
+ * onbefore**event** - fired before the event
+ * onleave**state**  - fired when leaving the old state
+ * onenter**state**  - fired when entering the new state
+ * onafter**event**  - fired after the event
+
+You can affect the event in 3 ways:
+
+ * return `false` from an `onbeforeevent` handler to cancel the event.
+ * return `false` from an `onleavestate` handler to cancel the event.
