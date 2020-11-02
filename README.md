@@ -142,3 +142,27 @@ fsm:warn()
 fsm:panic('killer bees')
 fsm:calm()
 fsm:clear('sedatives in the honey pots')
+...
+```
+
+Additionally, they can be added and removed from the state machine at any time:
+
+```lua
+fsm.ongreen       = nil
+fsm.onyellow      = nil
+fsm.onred         = nil
+fsm.onstatechange = function(self, event, from, to) print(to) end
+```
+
+or
+```lua
+function fsm:onstatechange(event, from, to) print(to) end
+```
+
+Asynchronous State Transitions
+==============================
+
+Sometimes, you need to execute some asynchronous code during a state transition and ensure the
+new state is not entered until your code has completed.
+
+A good example of this is when you transition out of a `menu` state, perhaps you want to gradually
