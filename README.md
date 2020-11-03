@@ -231,3 +231,30 @@ state and you would need to provide an event to take it out of this state:
 
 ```lua
 local machine = require('statemachine')
+
+local fsm = machine.create({
+  events = {
+    { name = 'startup', from = 'none',  to = 'green' },
+    { name = 'panic',   from = 'green', to = 'red'   },
+    { name = 'calm',    from = 'red',   to = 'green' },
+}})
+
+print(fsm.current) -- "none"
+fsm:startup()
+print(fsm.current) -- "green"
+```
+
+If you specify the name of your initial event (as in all the earlier examples), then an
+implicit `startup` event will be created for you and fired when the state machine is constructed.
+
+```lua
+local machine = require('statemachine')
+
+local fsm = machine.create({
+  inital = 'green',
+  events = {
+    { name = 'panic',   from = 'green', to = 'red'   },
+    { name = 'calm',    from = 'red',   to = 'green' },
+}})
+print(fsm.current) -- "green"
+```
