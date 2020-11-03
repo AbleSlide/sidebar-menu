@@ -194,3 +194,23 @@ local fsm = machine.create({
   events = {
     { name = 'play', from = 'menu', to = 'game' },
     { name = 'quit', from = 'game', to = 'menu' }
+  },
+
+  callbacks = {
+
+    onentermenu = function() manager.switch('menu') end,
+    onentergame = function() manager.switch('game') end,
+
+    onleavemenu = function(fsm, name, from, to)
+      manager.fade('fast', function()
+        fsm:transition(name)
+      end)
+      return fsm.ASYNC -- tell machine to defer next state until we call transition (in fadeOut callback above)
+    end,
+
+    onleavegame = function(fsm, name, from, to)
+      manager.slide('slow', function()
+        fsm:transition(name)
+      end)
+      return fsm.ASYNC -- tell machine to defer next state until we call transition (in slideDown callback above)
+    end,
