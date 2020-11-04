@@ -1,1 +1,3 @@
-r
+require("busted")
+
+loc
