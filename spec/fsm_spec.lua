@@ -1,3 +1,4 @@
 require("busted")
 
-local machine = requir
+local machine = require("statemachine")
+loc
