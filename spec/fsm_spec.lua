@@ -1,3 +1,3 @@
 require("busted")
 
-loc
+local machine = requir
