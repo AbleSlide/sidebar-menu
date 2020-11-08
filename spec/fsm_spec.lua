@@ -1,4 +1,4 @@
 require("busted")
 
 local machine = require("statemachine")
-loc
+local _ = require("luassert.
