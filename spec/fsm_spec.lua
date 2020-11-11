@@ -7,4 +7,4 @@ describe("Lua state machine framework", function()
   describe("A stop light", function()
     local fsm
     local stoplight = {
-      {
+      { name = 'warn',  from = '
