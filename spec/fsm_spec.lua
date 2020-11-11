@@ -8,4 +8,4 @@ describe("Lua state machine framework", function()
     local fsm
     local stoplight = {
       { name = 'warn',  from = 'green',  to = 'yellow' },
-      { name = 'panic', from 
+      { name = 'panic', from = 'yellow', to = 'red'    },
