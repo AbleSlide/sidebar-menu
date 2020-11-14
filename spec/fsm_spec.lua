@@ -9,3 +9,4 @@ describe("Lua state machine framework", function()
     local stoplight = {
       { name = 'warn',  from = 'green',  to = 'yellow' },
       { name = 'panic', from = 'yellow', to = 'red'    },
+      { name = 'calm',  from = '
