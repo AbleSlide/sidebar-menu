@@ -10,4 +10,4 @@ describe("Lua state machine framework", function()
       { name = 'warn',  from = 'green',  to = 'yellow' },
       { name = 'panic', from = 'yellow', to = 'red'    },
       { name = 'calm',  from = 'red',    to = 'yellow' },
-      { nam
+      { name = 'clear', from = 'y
