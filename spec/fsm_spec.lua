@@ -11,4 +11,6 @@ describe("Lua state machine framework", function()
       { name = 'panic', from = 'yellow', to = 'red'    },
       { name = 'calm',  from = 'red',    to = 'yellow' },
       { name = 'clear', from = 'yellow', to = 'green'  }
- 
+    }
+
+    before_each(function
