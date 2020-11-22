@@ -13,4 +13,5 @@ describe("Lua state machine framework", function()
       { name = 'clear', from = 'yellow', to = 'green'  }
     }
 
-    before_each(function
+    before_each(function()
+      fsm = machine.create
