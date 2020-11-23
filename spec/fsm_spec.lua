@@ -14,4 +14,7 @@ describe("Lua state machine framework", function()
     }
 
     before_each(function()
-      fsm = machine.create({ initial = 'green', events = stoplight 
+      fsm = machine.create({ initial = 'green', events = stoplight })
+    end)
+
+    it("
