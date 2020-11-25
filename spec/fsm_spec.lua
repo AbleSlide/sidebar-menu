@@ -18,4 +18,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should start as green", function()
-      assert.are_equal(
+      assert.are_equal(fsm.current, 'green')
+  
