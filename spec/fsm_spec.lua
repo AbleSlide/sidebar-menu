@@ -17,4 +17,4 @@ describe("Lua state machine framework", function()
       fsm = machine.create({ initial = 'green', events = stoplight })
     end)
 
-    it("
+    it("should star
