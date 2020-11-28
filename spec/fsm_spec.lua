@@ -21,4 +21,5 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'green')
     end)
 
-    it("should not let you get to the wrong state", func
+    it("should not let you get to the wrong state", function()
+      assert.is_false(fsm:
