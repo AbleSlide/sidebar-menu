@@ -22,4 +22,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should not let you get to the wrong state", function()
-      assert.is_false(fsm:
+      assert.is_false(fsm:panic())
+      a
