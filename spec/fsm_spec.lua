@@ -32,4 +32,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'yellow')
     end)
 
-   
+    it("should tell you what it
