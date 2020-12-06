@@ -29,4 +29,4 @@ describe("Lua state machine framework", function()
 
     it("should let you go to yellow", function()
       assert.is_true(fsm:warn())
-      assert.a
+      assert.are_equal(fsm.current, 'ye
