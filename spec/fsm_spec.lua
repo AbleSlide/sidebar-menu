@@ -27,4 +27,5 @@ describe("Lua state machine framework", function()
       assert.is_false(fsm:clear())
     end)
 
-    it("should let you go to yellow
+    it("should let you go to yellow", function()
+      asse
