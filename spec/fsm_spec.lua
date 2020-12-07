@@ -33,4 +33,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("should tell you what it can do", function()
- 
+      assert.is_true(fsm:can('warn'
