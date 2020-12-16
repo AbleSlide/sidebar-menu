@@ -37,4 +37,6 @@ describe("Lua state machine framework", function()
       assert.is_false(fsm:can('panic'))
       assert.is_false(fsm:can('calm'))
       assert.is_false(fsm:can('clear'))
-    
+    end)
+
+    it("shoul
