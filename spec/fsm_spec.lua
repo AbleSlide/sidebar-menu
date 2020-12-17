@@ -39,4 +39,4 @@ describe("Lua state machine framework", function()
       assert.is_false(fsm:can('clear'))
     end)
 
-    it("shoul
+    it("should tell you what it c
