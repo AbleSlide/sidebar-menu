@@ -40,4 +40,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should tell you what it can't do", function()
-      assert.is_false
+      assert.is_false(fsm:cannot('warn'))
+      assert
