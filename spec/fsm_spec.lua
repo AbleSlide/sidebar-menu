@@ -46,3 +46,4 @@ describe("Lua state machine framework", function()
       assert.is_true(fsm:cannot('clear'))
     end)
 
+    it("should suppor
