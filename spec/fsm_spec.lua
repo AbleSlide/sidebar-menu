@@ -48,4 +48,4 @@ describe("Lua state machine framework", function()
 
     it("should support checking states", function()
       assert.is_true(fsm:is('green'))
-      as
+      assert.is_false(fsm:i
