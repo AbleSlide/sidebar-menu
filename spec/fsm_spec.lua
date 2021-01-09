@@ -52,4 +52,5 @@ describe("Lua state machine framework", function()
       assert.is_false(fsm:is('yellow'))
     end)
 
-    it("should fire callbac
+    it("should fire callbacks", function()
+      l
