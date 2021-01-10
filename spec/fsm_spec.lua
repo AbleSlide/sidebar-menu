@@ -53,4 +53,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("should fire callbacks", function()
-      l
+      local fsm = machine.create({
