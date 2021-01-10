@@ -55,4 +55,5 @@ describe("Lua state machine framework", function()
     it("should fire callbacks", function()
       local fsm = machine.create({
         initial = 'green',
-      
+        events = stoplight,
+     
