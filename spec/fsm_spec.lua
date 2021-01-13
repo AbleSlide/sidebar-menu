@@ -59,4 +59,5 @@ describe("Lua state machine framework", function()
         callbacks = {
           onbeforewarn = stub.new(),
           onleavegreen = stub.new(),
-          onenteryellow 
+          onenteryellow = stub.new(),
+          onaft
