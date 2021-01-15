@@ -64,4 +64,7 @@ describe("Lua state machine framework", function()
           onstatechange = stub.new(),
           onyellow = stub.new(),
           onwarn = stub.new()
-        
+        }
+      })
+
+      fsm:
