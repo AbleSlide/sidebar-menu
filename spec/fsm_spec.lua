@@ -67,4 +67,6 @@ describe("Lua state machine framework", function()
         }
       })
 
-      fsm:
+      fsm:warn()
+
+      assert.spy(fsm.on
