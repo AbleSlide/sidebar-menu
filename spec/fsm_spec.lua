@@ -74,4 +74,4 @@ describe("Lua state machine framework", function()
 
       assert.spy(fsm.onenteryellow).was_called_with(_, 'warn', 'green', 'yellow')
       assert.spy(fsm.onafterwarn).was_called_with(_, 'warn', 'green', 'yellow')
-      asser
+      assert.spy(fsm.onstatechange
