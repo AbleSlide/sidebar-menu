@@ -80,4 +80,4 @@ describe("Lua state machine framework", function()
       assert.spy(fsm.onwarn).was_not_called()
     end)
 
-    it("should
+    it("should fire handlers", funct
