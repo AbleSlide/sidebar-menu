@@ -78,4 +78,6 @@ describe("Lua state machine framework", function()
 
       assert.spy(fsm.onyellow).was_not_called()
       assert.spy(fsm.onwarn).was_not_called()
-   
+    end)
+
+    it("should
