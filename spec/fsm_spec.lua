@@ -81,4 +81,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("should fire handlers", function()
-      fsm.onbeforewa
+      fsm.onbeforewarn = stub.ne
