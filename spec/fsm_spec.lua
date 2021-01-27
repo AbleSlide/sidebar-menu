@@ -82,4 +82,5 @@ describe("Lua state machine framework", function()
 
     it("should fire handlers", function()
       fsm.onbeforewarn = stub.new()
-      fsm.onleave
+      fsm.onleavegreen = stub.new()
+   
