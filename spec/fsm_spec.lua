@@ -87,4 +87,5 @@ describe("Lua state machine framework", function()
       fsm.onafterwarn = stub.new()
       fsm.onstatechange = stub.new()
 
-      fsm.onyellow 
+      fsm.onyellow = stub.new()
+      
