@@ -106,4 +106,4 @@ describe("Lua state machine framework", function()
     it("should accept additional arguments to handlers", function()
       fsm.onbeforewarn = stub.new()
       fsm.onleavegreen = stub.new()
-      fsm.on
+      fsm.onenteryellow = s
