@@ -103,4 +103,4 @@ describe("Lua state machine framework", function()
       assert.spy(fsm.onwarn).was_not_called()
     end)
 
-    it("should accept additional argu
+    it("should accept additional arguments to handlers", fun
