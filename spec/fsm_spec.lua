@@ -104,4 +104,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should accept additional arguments to handlers", function()
-      fsm.onbef
+      fsm.onbeforewarn = stub.new()
+ 
