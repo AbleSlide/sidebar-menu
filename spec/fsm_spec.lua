@@ -112,4 +112,4 @@ describe("Lua state machine framework", function()
 
       fsm:warn('bar')
 
-      assert.spy(fs
+      assert.spy(fsm.onbeforewarn).was
