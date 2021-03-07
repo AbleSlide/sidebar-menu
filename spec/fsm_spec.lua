@@ -110,4 +110,6 @@ describe("Lua state machine framework", function()
       fsm.onafterwarn = stub.new()
       fsm.onstatechange = stub.new()
 
-      fsm:warn('ba
+      fsm:warn('bar')
+
+      assert.spy(fs
