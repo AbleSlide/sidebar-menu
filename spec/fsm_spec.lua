@@ -113,4 +113,6 @@ describe("Lua state machine framework", function()
       fsm:warn('bar')
 
       assert.spy(fsm.onbeforewarn).was_called_with(_, 'warn', 'green', 'yellow', 'bar')
-      assert.spy(fsm.onleavegreen).was_called_with(_, 'warn', 'green', 'yellow', 'ba
+      assert.spy(fsm.onleavegreen).was_called_with(_, 'warn', 'green', 'yellow', 'bar')
+      
+      asser
