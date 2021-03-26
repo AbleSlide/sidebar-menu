@@ -121,4 +121,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should fire short handlers as a fallback", function()
-      fsm.onyello
+      fsm.onyellow = stub.new()
+      fsm.on
