@@ -124,4 +124,6 @@ describe("Lua state machine framework", function()
       fsm.onyellow = stub.new()
       fsm.onwarn = stub.new()
 
-      fs
+      fsm:warn()
+
+      assert.spy
