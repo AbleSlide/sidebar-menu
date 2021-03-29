@@ -126,4 +126,4 @@ describe("Lua state machine framework", function()
 
       fsm:warn()
 
-      assert.spy(fsm.onyellow).was_c
+      assert.spy(fsm.onyellow).was_called_with(_, 'warn', '
