@@ -137,4 +137,5 @@ describe("Lua state machine framework", function()
 
       local result = fsm:warn()
 
-      a
+      assert.is_false(result)
+    
