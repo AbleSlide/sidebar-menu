@@ -131,4 +131,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("should cancel the warn event from onleavegreen", function()
-      fsm.onleavegree
+      fsm.onleavegreen = function(self,
