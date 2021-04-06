@@ -141,4 +141,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'green')
     end)
 
-    it("should can
+    it("should cancel the warn event from
