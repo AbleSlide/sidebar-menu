@@ -139,4 +139,6 @@ describe("Lua state machine framework", function()
 
       assert.is_false(result)
       assert.are_equal(fsm.current, 'green')
-   
+    end)
+
+    it("should can
