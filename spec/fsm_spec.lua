@@ -142,4 +142,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should cancel the warn event from onbeforewarn", function()
-      fsm.onbeforewarn = function(self, name, 
+      fsm.onbeforewarn = function(self, name, from, to) 
+        return
