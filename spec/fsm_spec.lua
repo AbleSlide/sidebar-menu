@@ -146,4 +146,4 @@ describe("Lua state machine framework", function()
         return false
       end
 
-      lo
+      local result = fsm:war
