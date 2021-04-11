@@ -146,4 +146,6 @@ describe("Lua state machine framework", function()
         return false
       end
 
-      local result = fsm:war
+      local result = fsm:warn()
+
+      assert.
