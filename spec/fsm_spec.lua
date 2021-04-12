@@ -149,4 +149,4 @@ describe("Lua state machine framework", function()
       local result = fsm:warn()
 
       assert.is_false(result)
-      a
+      assert.are_equal(fsm.curre
