@@ -152,4 +152,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'green')
     end)
 
-    it(
+    it("pauses when async is passed", f
