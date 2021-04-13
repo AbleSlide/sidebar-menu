@@ -153,4 +153,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("pauses when async is passed", function()
-      fsm.onleavegreen = function
+      fsm.onleavegreen = function(self, name, from, to)
+    
