@@ -163,4 +163,4 @@ describe("Lua state machine framework", function()
       local result = fsm:warn()
       assert.is_true(result)
       assert.are_equal(fsm.current, 'green')
-      assert.are_equal(fsm.currentTransi
+      assert.are_equal(fsm.currentTransitioningEvent, 'warn')
