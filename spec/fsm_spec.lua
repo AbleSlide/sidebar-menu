@@ -160,4 +160,5 @@ describe("Lua state machine framework", function()
         return fsm.ASYNC
       end
 
-      local result 
+      local result = fsm:warn()
+      asse
