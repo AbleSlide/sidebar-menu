@@ -162,4 +162,5 @@ describe("Lua state machine framework", function()
 
       local result = fsm:warn()
       assert.is_true(result)
-      assert.are_equal(fsm.cu
+      assert.are_equal(fsm.current, 'green')
+      
