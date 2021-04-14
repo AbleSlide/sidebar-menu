@@ -156,4 +156,5 @@ describe("Lua state machine framework", function()
       fsm.onleavegreen = function(self, name, from, to)
         return fsm.ASYNC
       end
-      fsm.onenteryellow = function(self, name, from
+      fsm.onenteryellow = function(self, name, from, to)
+        return
