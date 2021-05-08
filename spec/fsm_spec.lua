@@ -172,4 +172,5 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.currentTransitioningEvent, 'warn')
       assert.are_equal(fsm.asyncState, 'warnWaitingOnEnter')
 
-      result = fsm:transition(fsm.current
+      result = fsm:transition(fsm.currentTransitioningEvent)
+   
