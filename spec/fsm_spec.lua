@@ -175,4 +175,4 @@ describe("Lua state machine framework", function()
       result = fsm:transition(fsm.currentTransitioningEvent)
       assert.is_true(result)
       assert.are_equal(fsm.current, 'yellow')
- 
+      assert.is_ni
