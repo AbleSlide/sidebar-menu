@@ -179,4 +179,5 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.asyncState, fsm.NONE)
     end)
 
-    it("should accept additional arguments to async handle
+    it("should accept additional arguments to async handlers", function()
+      
