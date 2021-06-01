@@ -180,4 +180,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should accept additional arguments to async handlers", function()
-      fsm.onbeforewarn = stub.n
+      fsm.onbeforewarn = stub.new()
+      fsm.onl
