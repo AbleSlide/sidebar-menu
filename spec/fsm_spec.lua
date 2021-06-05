@@ -182,4 +182,6 @@ describe("Lua state machine framework", function()
     it("should accept additional arguments to async handlers", function()
       fsm.onbeforewarn = stub.new()
       fsm.onleavegreen = spy.new(function(self, name, from, to, arg)
-        return fsm.
+        return fsm.ASYNC
+      end)
+     
