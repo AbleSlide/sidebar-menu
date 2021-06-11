@@ -185,4 +185,5 @@ describe("Lua state machine framework", function()
         return fsm.ASYNC
       end)
       fsm.onenteryellow = spy.new(function(self, name, from, to, arg)
+        return fsm.ASYNC
      
