@@ -188,4 +188,4 @@ describe("Lua state machine framework", function()
         return fsm.ASYNC
       end)
       fsm.onafterwarn = stub.new()
-      fsm.onstate
+      fsm.onstatechange = stub.ne
