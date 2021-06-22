@@ -191,4 +191,4 @@ describe("Lua state machine framework", function()
       fsm.onstatechange = stub.new()
 
       fsm:warn('bar')
-      assert.sp
+      assert.spy(fsm.onbeforewarn).was_calle
