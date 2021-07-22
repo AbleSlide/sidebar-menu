@@ -199,4 +199,4 @@ describe("Lua state machine framework", function()
 
       fsm:transition(fsm.currentTransitioningEvent)
       assert.spy(fsm.onafterwarn).was_called_with(_, 'warn', 'green', 'yellow', 'bar')
-      asser
+      assert.spy(fsm.onstatec
