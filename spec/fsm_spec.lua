@@ -202,4 +202,4 @@ describe("Lua state machine framework", function()
       assert.spy(fsm.onstatechange).was_called_with(_, 'warn', 'green', 'yellow', 'bar')
     end)
 
-    it("should properly transition when another event happens du
+    it("should properly transition when another event happens during leave async", funct
