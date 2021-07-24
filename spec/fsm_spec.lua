@@ -203,4 +203,5 @@ describe("Lua state machine framework", function()
     end)
 
     it("should properly transition when another event happens during leave async", function()
-      local tempStop
+      local tempStoplight = {}
+      
