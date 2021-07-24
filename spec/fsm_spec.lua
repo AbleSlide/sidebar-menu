@@ -202,4 +202,4 @@ describe("Lua state machine framework", function()
       assert.spy(fsm.onstatechange).was_called_with(_, 'warn', 'green', 'yellow', 'bar')
     end)
 
-    it("should prope
+    it("should properly transition when ano
