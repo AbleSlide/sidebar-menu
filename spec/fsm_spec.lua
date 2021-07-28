@@ -205,4 +205,6 @@ describe("Lua state machine framework", function()
     it("should properly transition when another event happens during leave async", function()
       local tempStoplight = {}
       for _, event in ipairs(stoplight) do
-        table.insert(tempStoplight,
+        table.insert(tempStoplight, event)
+      end
+   
