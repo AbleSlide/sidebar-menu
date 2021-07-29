@@ -207,4 +207,4 @@ describe("Lua state machine framework", function()
       for _, event in ipairs(stoplight) do
         table.insert(tempStoplight, event)
       end
-   
+      table.insert(tempStopligh
