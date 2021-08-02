@@ -209,4 +209,4 @@ describe("Lua state machine framework", function()
       end
       table.insert(tempStoplight, { name = "panic", from = "green", to = "red" })
       
-      local
+      local fsm = machine.create({
