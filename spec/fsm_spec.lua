@@ -211,4 +211,5 @@ describe("Lua state machine framework", function()
       
       local fsm = machine.create({
         initial = 'green',
-        events = temp
+        events = tempStoplight
+      })
