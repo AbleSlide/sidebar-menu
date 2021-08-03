@@ -214,4 +214,4 @@ describe("Lua state machine framework", function()
         events = tempStoplight
       })
 
-      fsm.onleavegreen = function
+      fsm.onleavegreen = function(self, name, from, to)
