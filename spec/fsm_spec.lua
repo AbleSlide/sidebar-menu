@@ -215,3 +215,4 @@ describe("Lua state machine framework", function()
       })
 
       fsm.onleavegreen = function(self, name, from, to)
+        return 
