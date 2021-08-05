@@ -220,4 +220,5 @@ describe("Lua state machine framework", function()
 
       fsm:warn()
 
-      local result = fs
+      local result = fsm:panic()
+      local transition
