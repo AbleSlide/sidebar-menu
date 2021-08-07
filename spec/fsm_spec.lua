@@ -221,4 +221,4 @@ describe("Lua state machine framework", function()
       fsm:warn()
 
       local result = fsm:panic()
-      local transitionResult = fsm:transition(fs
+      local transitionResult = fsm:transition(fsm.currentTransition
