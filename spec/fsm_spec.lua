@@ -223,4 +223,5 @@ describe("Lua state machine framework", function()
       local result = fsm:panic()
       local transitionResult = fsm:transition(fsm.currentTransitioningEvent)
 
-      assert.is_true(resul
+      assert.is_true(result)
+      assert.is_
