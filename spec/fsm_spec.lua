@@ -225,4 +225,5 @@ describe("Lua state machine framework", function()
 
       assert.is_true(result)
       assert.is_true(transitionResult)
-      assert.is_nil(fsm.currentTransitioningE
+      assert.is_nil(fsm.currentTransitioningEvent)
+      assert.are_
