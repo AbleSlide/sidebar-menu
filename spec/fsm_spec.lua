@@ -230,4 +230,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'red')
     end)
 
-    it("should properly transition w
+    it("should properly transition when another event happen
