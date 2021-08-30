@@ -230,4 +230,5 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'red')
     end)
 
-    it("should properly transition when another event happens during enter async", fun
+    it("should properly transition when another event happens during enter async", function()
+      fsm.on
