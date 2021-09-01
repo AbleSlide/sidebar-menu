@@ -231,4 +231,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("should properly transition when another event happens during enter async", function()
-      fsm.on
+      fsm.onenteryellow = function(self, n
