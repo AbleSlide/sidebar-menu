@@ -239,4 +239,5 @@ describe("Lua state machine framework", function()
 
       local result = fsm:panic()
 
-      assert.is_true
+      assert.is_true(result)
+      as
