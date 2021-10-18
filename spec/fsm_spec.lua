@@ -245,4 +245,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'red')
     end)
 
-    it("should prop
+    it("should properly cancel the transition 
