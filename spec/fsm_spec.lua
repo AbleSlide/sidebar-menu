@@ -246,4 +246,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("should properly cancel the transition if asked", function()
-      fsm.onleavegreen = functio
+      fsm.onleavegreen = function(self, name, from, to)
