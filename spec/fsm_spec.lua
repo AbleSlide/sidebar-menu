@@ -247,3 +247,5 @@ describe("Lua state machine framework", function()
 
     it("should properly cancel the transition if asked", function()
       fsm.onleavegreen = function(self, name, from, to)
+        return fsm.ASYNC
+    
