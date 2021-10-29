@@ -253,4 +253,4 @@ describe("Lua state machine framework", function()
       fsm:warn()
       fsm:cancelTransition(fsm.currentTransitioningEvent)
 
-   
+      assert.is_nil(fsm.cu
