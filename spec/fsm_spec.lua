@@ -257,4 +257,5 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.asyncState, fsm.NONE)
       assert.are_equal(fsm.current, 'green')
 
-      fsm.onleavegreen 
+      fsm.onleavegreen = nil
+      fsm.onenteryel
