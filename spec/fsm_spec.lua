@@ -258,4 +258,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'green')
 
       fsm.onleavegreen = nil
-      fsm.onenteryel
+      fsm.onenteryellow = function(self,
