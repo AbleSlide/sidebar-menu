@@ -260,3 +260,6 @@ describe("Lua state machine framework", function()
       fsm.onleavegreen = nil
       fsm.onenteryellow = function(self, name, from, to)
         return fsm.ASYNC
+      end
+
+    
