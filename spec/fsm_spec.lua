@@ -262,4 +262,5 @@ describe("Lua state machine framework", function()
         return fsm.ASYNC
       end
 
-    
+      fsm:warn()
+   
