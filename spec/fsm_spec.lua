@@ -263,4 +263,4 @@ describe("Lua state machine framework", function()
       end
 
       fsm:warn()
-   
+      fsm:cancelTran
