@@ -263,4 +263,6 @@ describe("Lua state machine framework", function()
       end
 
       fsm:warn()
-      fsm:cancelTransition(fsm.currentTransitioni
+      fsm:cancelTransition(fsm.currentTransitioningEvent)
+
+     
