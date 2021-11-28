@@ -266,3 +266,4 @@ describe("Lua state machine framework", function()
       fsm:cancelTransition(fsm.currentTransitioningEvent)
 
       assert.is_nil(fsm.currentTransitioningEvent)
+      assert.are_equal(f
