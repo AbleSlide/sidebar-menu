@@ -267,4 +267,4 @@ describe("Lua state machine framework", function()
 
       assert.is_nil(fsm.currentTransitioningEvent)
       assert.are_equal(fsm.asyncState, fsm.NONE)
-      as
+      assert.are_equal(fsm.current, 'y
