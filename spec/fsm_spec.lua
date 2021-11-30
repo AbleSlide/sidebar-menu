@@ -270,4 +270,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'yellow')
     end)
 
-    it("todo
+    it("todot generates dot file (graphviz
