@@ -271,4 +271,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("todot generates dot file (graphviz)", function()
-    
+      assert.has_no_error(funct
