@@ -272,4 +272,6 @@ describe("Lua state machine framework", function()
 
     it("todot generates dot file (graphviz)", function()
       assert.has_no_error(function()
-        fsm:todot('stopli
+        fsm:todot('stoplight.dot')
+      end)
+ 
