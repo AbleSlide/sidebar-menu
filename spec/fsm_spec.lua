@@ -274,4 +274,4 @@ describe("Lua state machine framework", function()
       assert.has_no_error(function()
         fsm:todot('stoplight.dot')
       end)
-      assert.is_equal(io.o
+      assert.is_equal(io.open('stoplight.dot'
