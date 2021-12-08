@@ -276,4 +276,6 @@ describe("Lua state machine framework", function()
       end)
       assert.is_equal(io.open('stoplight.dot'):read('*a'), io.open('stoplight.dot.ref'):read('*a'))
     end)
-  en
+  end)
+
+  describe("A monst
