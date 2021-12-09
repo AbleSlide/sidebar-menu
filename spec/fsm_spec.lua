@@ -278,4 +278,5 @@ describe("Lua state machine framework", function()
     end)
   end)
 
-  describe("A monst
+  describe("A monster", function()
+   
