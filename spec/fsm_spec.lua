@@ -281,4 +281,5 @@ describe("Lua state machine framework", function()
   describe("A monster", function()
     local fsm
     local monster = {
-      { name = 'eat',  from = 'hungry',                                to = 'satisfi
+      { name = 'eat',  from = 'hungry',                                to = 'satisfied' },
+      { name = '
