@@ -284,4 +284,4 @@ describe("Lua state machine framework", function()
       { name = 'eat',  from = 'hungry',                                to = 'satisfied' },
       { name = 'eat',  from = 'satisfied',                             to = 'full'      },
       { name = 'eat',  from = 'full',                                  to = 'sick'      },
-      { name = 'rest', from = {'hun
+      { name = 'rest', from = {'hungry', 'satisfied', 'full'
