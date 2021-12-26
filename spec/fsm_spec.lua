@@ -283,4 +283,5 @@ describe("Lua state machine framework", function()
     local monster = {
       { name = 'eat',  from = 'hungry',                                to = 'satisfied' },
       { name = 'eat',  from = 'satisfied',                             to = 'full'      },
-      { name = 'eat',  from = 'full',                                 
+      { name = 'eat',  from = 'full',                                  to = 'sick'      },
+      { nam
