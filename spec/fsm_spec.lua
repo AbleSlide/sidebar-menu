@@ -287,4 +287,5 @@ describe("Lua state machine framework", function()
       { name = 'rest', from = {'hungry', 'satisfied', 'full', 'sick'}, to = 'hungry'    }
     }
 
-    befor
+    before_each(function()
+      
