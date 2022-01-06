@@ -288,4 +288,4 @@ describe("Lua state machine framework", function()
     }
 
     before_each(function()
-      fsm = machine.cr
+      fsm = machine.create({ initial = 'hung
