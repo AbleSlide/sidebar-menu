@@ -288,4 +288,7 @@ describe("Lua state machine framework", function()
     }
 
     before_each(function()
-      fsm = machine.create({ initial = 'hungry', events = monste
+      fsm = machine.create({ initial = 'hungry', events = monster })
+    end)
+
+    it("can eat un
