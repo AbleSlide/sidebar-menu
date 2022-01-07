@@ -291,4 +291,4 @@ describe("Lua state machine framework", function()
       fsm = machine.create({ initial = 'hungry', events = monster })
     end)
 
-    it("can eat un
+    it("can eat unless it is sick", func
