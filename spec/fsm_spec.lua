@@ -292,4 +292,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("can eat unless it is sick", function()
-      asse
+      assert.are_equal(fsm.current, 'hun
