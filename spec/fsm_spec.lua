@@ -293,4 +293,5 @@ describe("Lua state machine framework", function()
 
     it("can eat unless it is sick", function()
       assert.are_equal(fsm.current, 'hungry')
-      assert.is_true
+      assert.is_true(fsm:can('eat'))
+     
