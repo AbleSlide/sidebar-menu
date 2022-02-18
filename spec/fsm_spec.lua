@@ -295,4 +295,4 @@ describe("Lua state machine framework", function()
       assert.are_equal(fsm.current, 'hungry')
       assert.is_true(fsm:can('eat'))
       fsm:eat()
-      assert.are_e
+      assert.are_equal(fsm.current, 'sa
