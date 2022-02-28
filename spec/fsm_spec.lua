@@ -305,4 +305,4 @@ describe("Lua state machine framework", function()
       assert.is_false(fsm:can('eat'))
     end)
 
-    
+    it("can always 
