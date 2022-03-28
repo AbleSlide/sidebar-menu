@@ -306,4 +306,4 @@ describe("Lua state machine framework", function()
     end)
 
     it("can always rest", function()
-    
+      assert.are_equal(fsm.c
