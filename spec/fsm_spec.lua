@@ -307,4 +307,4 @@ describe("Lua state machine framework", function()
 
     it("can always rest", function()
       assert.are_equal(fsm.current, 'hungry')
-    
+      assert.is_true(f
