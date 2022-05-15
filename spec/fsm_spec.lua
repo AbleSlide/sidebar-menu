@@ -310,4 +310,6 @@ describe("Lua state machine framework", function()
       assert.is_true(fsm:can('rest'))
       fsm:eat()
       assert.are_equal(fsm.current, 'satisfied')
-      assert.is_true(fsm:can('
+      assert.is_true(fsm:can('rest'))
+      fsm:eat()
+ 
