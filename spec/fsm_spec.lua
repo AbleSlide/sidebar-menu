@@ -316,4 +316,4 @@ describe("Lua state machine framework", function()
       assert.is_true(fsm:can('rest'))
       fsm:eat()
       assert.are_equal(fsm.current, 'sick')
-      assert.
+      assert.is_true(fsm:ca
