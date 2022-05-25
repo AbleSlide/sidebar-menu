@@ -1,1 +1,2 @@
-loca
+local machine = {}
+machine.__i
