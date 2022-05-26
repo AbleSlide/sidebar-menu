@@ -1,2 +1,4 @@
 local machine = {}
-machine.__i
+machine.__index = machine
+
+local NONE
