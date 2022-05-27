@@ -4,4 +4,4 @@ machine.__index = machine
 local NONE = "none"
 local ASYNC = "async"
 
-local function
+local function call_handler(handler, para
