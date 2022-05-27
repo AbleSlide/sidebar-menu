@@ -2,4 +2,6 @@ local machine = {}
 machine.__index = machine
 
 local NONE = "none"
-local ASYNC 
+local ASYNC = "async"
+
+local function
