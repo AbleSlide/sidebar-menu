@@ -11,4 +11,6 @@ local function call_handler(handler, params)
 end
 
 local function create_transition(name)
-  local can, to, from, pa
+  local can, to, from, params
+
+  local functi
