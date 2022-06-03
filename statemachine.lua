@@ -13,4 +13,4 @@ end
 local function create_transition(name)
   local can, to, from, params
 
-  local functi
+  local function transition(self, ...)
