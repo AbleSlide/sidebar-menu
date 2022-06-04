@@ -14,4 +14,5 @@ local function create_transition(name)
   local can, to, from, params
 
   local function transition(self, ...)
-    if self.as
+    if self.asyncState == NONE then
+      can
