@@ -15,4 +15,4 @@ local function create_transition(name)
 
   local function transition(self, ...)
     if self.asyncState == NONE then
-      can
+      can, to = self:can(na
