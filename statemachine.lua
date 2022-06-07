@@ -17,4 +17,5 @@ local function create_transition(name)
     if self.asyncState == NONE then
       can, to = self:can(name)
       from = self.current
-      params = {
+      params = { self, name, from, to, ...}
+
