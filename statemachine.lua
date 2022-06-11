@@ -20,4 +20,4 @@ local function create_transition(name)
       params = { self, name, from, to, ...}
 
       if not can then return false end
-      self.currentTransit
+      self.currentTransitioningEvent = na
