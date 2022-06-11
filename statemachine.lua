@@ -19,4 +19,5 @@ local function create_transition(name)
       from = self.current
       params = { self, name, from, to, ...}
 
-      if not can then return f
+      if not can then return false end
+      self.currentTransit
