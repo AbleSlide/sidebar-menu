@@ -22,4 +22,4 @@ local function create_transition(name)
       if not can then return false end
       self.currentTransitioningEvent = name
 
-      local beforeReturn = call_h
+      local beforeReturn = call_handler(self["onbefore"
