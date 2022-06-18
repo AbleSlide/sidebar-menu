@@ -23,4 +23,6 @@ local function create_transition(name)
       self.currentTransitioningEvent = name
 
       local beforeReturn = call_handler(self["onbefore" .. name], params)
-      local leaveReturn = call_handler(self["onleave" 
+      local leaveReturn = call_handler(self["onleave" .. from], params)
+
+  
