@@ -26,4 +26,7 @@ local function create_transition(name)
       local leaveReturn = call_handler(self["onleave" .. from], params)
 
       if beforeReturn == false or leaveReturn == false then
-        retur
+        return false
+      end
+
+  
