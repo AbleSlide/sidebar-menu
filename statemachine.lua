@@ -29,4 +29,4 @@ local function create_transition(name)
         return false
       end
 
-  
+      self.asyncState = nam
