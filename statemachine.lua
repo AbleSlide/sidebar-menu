@@ -32,4 +32,5 @@ local function create_transition(name)
       self.asyncState = name .. "WaitingOnLeave"
 
       if leaveReturn ~= ASYNC then
-        transition(
+        transition(self, ...)
+      en
