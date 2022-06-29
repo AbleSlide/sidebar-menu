@@ -33,4 +33,7 @@ local function create_transition(name)
 
       if leaveReturn ~= ASYNC then
         transition(self, ...)
-      en
+      end
+      
+      return true
+   
