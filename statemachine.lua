@@ -36,4 +36,4 @@ local function create_transition(name)
       end
       
       return true
-    elseif self.asyncState == name .. "Wait
+    elseif self.asyncState == name .. "WaitingOnLeave" the
