@@ -39,4 +39,6 @@ local function create_transition(name)
     elseif self.asyncState == name .. "WaitingOnLeave" then
       self.current = to
 
-      local enterReturn = call_handler(self["onenter" .. to] or self["on" .. to], params
+      local enterReturn = call_handler(self["onenter" .. to] or self["on" .. to], params)
+
+      self.asyncSt
