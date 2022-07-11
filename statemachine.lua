@@ -41,4 +41,6 @@ local function create_transition(name)
 
       local enterReturn = call_handler(self["onenter" .. to] or self["on" .. to], params)
 
-      self.asyncState = name .. "WaitingOnEnter
+      self.asyncState = name .. "WaitingOnEnter"
+
+      if enterReturn ~
