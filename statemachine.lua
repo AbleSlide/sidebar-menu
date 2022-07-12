@@ -43,4 +43,5 @@ local function create_transition(name)
 
       self.asyncState = name .. "WaitingOnEnter"
 
-      if enterReturn ~
+      if enterReturn ~= ASYNC then
+        tran
