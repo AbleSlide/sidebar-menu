@@ -45,4 +45,6 @@ local function create_transition(name)
 
       if enterReturn ~= ASYNC then
         transition(self, ...)
-    
+      end
+      
+      r
