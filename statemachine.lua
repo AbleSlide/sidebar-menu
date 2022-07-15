@@ -47,4 +47,5 @@ local function create_transition(name)
         transition(self, ...)
       end
       
-      r
+      return true
+    elseif
