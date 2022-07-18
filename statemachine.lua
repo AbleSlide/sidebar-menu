@@ -48,4 +48,4 @@ local function create_transition(name)
       end
       
       return true
-    elseif
+    elseif self.asyncState == 
