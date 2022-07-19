@@ -48,4 +48,4 @@ local function create_transition(name)
       end
       
       return true
-    elseif self.asyncState == 
+    elseif self.asyncState == name .. "WaitingOnEnter"
