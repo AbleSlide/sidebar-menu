@@ -49,4 +49,5 @@ local function create_transition(name)
       
       return true
     elseif self.asyncState == name .. "WaitingOnEnter" then
-      call_handler(self["onafter" .. name] or self["on" .. name],
+      call_handler(self["onafter" .. name] or self["on" .. name], params)
+      call_handler(se
