@@ -52,4 +52,5 @@ local function create_transition(name)
       call_handler(self["onafter" .. name] or self["on" .. name], params)
       call_handler(self["onstatechange"], params)
       self.asyncState = NONE
-      self.currentTransitioningEvent =
+      self.currentTransitioningEvent = nil
+      retu
