@@ -55,4 +55,4 @@ local function create_transition(name)
       self.currentTransitioningEvent = nil
       return true
     else
-    	if string.find(self.
+    	if string.find(self.asyncState, "WaitingOnLeave
