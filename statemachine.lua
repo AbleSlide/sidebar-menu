@@ -55,4 +55,5 @@ local function create_transition(name)
       self.currentTransitioningEvent = nil
       return true
     else
-    	if string.find(self.asyncState, "WaitingOnLeave") or string.find(self.asyncState, "WaitingO
+    	if string.find(self.asyncState, "WaitingOnLeave") or string.find(self.asyncState, "WaitingOnEnter") then
+    	
