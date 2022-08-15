@@ -58,4 +58,6 @@ local function create_transition(name)
     	if string.find(self.asyncState, "WaitingOnLeave") or string.find(self.asyncState, "WaitingOnEnter") then
     		self.asyncState = NONE
     		transition(self, ...)
-    		retu
+    		return true
+    	end
+    
