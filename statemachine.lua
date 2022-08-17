@@ -60,4 +60,6 @@ local function create_transition(name)
     		transition(self, ...)
     		return true
     	end
-    
+    end
+
+    self.currentT
