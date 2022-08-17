@@ -62,4 +62,5 @@ local function create_transition(name)
     	end
     end
 
-    self.currentT
+    self.currentTransitioningEvent = nil
+    retu
