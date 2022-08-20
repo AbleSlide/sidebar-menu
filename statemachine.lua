@@ -63,4 +63,7 @@ local function create_transition(name)
     end
 
     self.currentTransitioningEvent = nil
-    retu
+    return false
+  end
+
+  re
