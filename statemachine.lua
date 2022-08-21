@@ -69,4 +69,5 @@ local function create_transition(name)
   return transition
 end
 
-local function a
+local function add_to_map(map, event)
+  if t
