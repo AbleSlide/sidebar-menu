@@ -66,4 +66,7 @@ local function create_transition(name)
     return false
   end
 
-  re
+  return transition
+end
+
+local function a
