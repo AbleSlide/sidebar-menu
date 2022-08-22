@@ -70,4 +70,4 @@ local function create_transition(name)
 end
 
 local function add_to_map(map, event)
-  if t
+  if type(event.from) == 'string' 
