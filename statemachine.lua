@@ -72,4 +72,5 @@ end
 local function add_to_map(map, event)
   if type(event.from) == 'string' then
     map[event.from] = event.to
-  e
+  else
+    for _, from in ipair
