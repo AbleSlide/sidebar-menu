@@ -74,4 +74,6 @@ local function add_to_map(map, event)
     map[event.from] = event.to
   else
     for _, from in ipairs(event.from) do
-      map[fro
+      map[from] = event.to
+    end
+  
