@@ -76,4 +76,7 @@ local function add_to_map(map, event)
     for _, from in ipairs(event.from) do
       map[from] = event.to
     end
-  
+  end
+end
+
+function mac
