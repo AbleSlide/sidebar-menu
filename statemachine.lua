@@ -79,4 +79,5 @@ local function add_to_map(map, event)
   end
 end
 
-function mac
+function machine.create(options)
+ 
