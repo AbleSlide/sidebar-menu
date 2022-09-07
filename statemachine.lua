@@ -80,4 +80,7 @@ local function add_to_map(map, event)
 end
 
 function machine.create(options)
-  assert(options.event
+  assert(options.events)
+
+  local fsm = {}
+  setmeta
