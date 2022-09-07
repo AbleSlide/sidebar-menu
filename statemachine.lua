@@ -83,4 +83,5 @@ function machine.create(options)
   assert(options.events)
 
   local fsm = {}
-  setmeta
+  setmetatable(fsm, machine)
+
