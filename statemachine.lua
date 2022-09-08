@@ -85,3 +85,4 @@ function machine.create(options)
   local fsm = {}
   setmetatable(fsm, machine)
 
+  fsm.options = opti
