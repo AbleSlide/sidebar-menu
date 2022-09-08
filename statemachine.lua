@@ -85,4 +85,5 @@ function machine.create(options)
   local fsm = {}
   setmetatable(fsm, machine)
 
-  fsm.options = opti
+  fsm.options = options
+  fsm.current = option
