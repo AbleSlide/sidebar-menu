@@ -86,4 +86,5 @@ function machine.create(options)
   setmetatable(fsm, machine)
 
   fsm.options = options
-  fsm.current = option
+  fsm.current = options.initial or 'none'
+  fsm.a
