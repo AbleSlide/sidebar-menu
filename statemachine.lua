@@ -88,4 +88,6 @@ function machine.create(options)
   fsm.options = options
   fsm.current = options.initial or 'none'
   fsm.asyncState = NONE
-  fsm.even
+  fsm.events = {}
+
+  for _, event in
