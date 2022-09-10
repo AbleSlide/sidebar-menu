@@ -87,4 +87,5 @@ function machine.create(options)
 
   fsm.options = options
   fsm.current = options.initial or 'none'
-  fsm.a
+  fsm.asyncState = NONE
+  fsm.even
