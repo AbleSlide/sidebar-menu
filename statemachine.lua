@@ -90,4 +90,4 @@ function machine.create(options)
   fsm.asyncState = NONE
   fsm.events = {}
 
-  for _, event in
+  for _, event in ipairs(options.events or 
