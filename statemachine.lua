@@ -91,4 +91,5 @@ function machine.create(options)
   fsm.events = {}
 
   for _, event in ipairs(options.events or {}) do
-    local name =
+    local name = event.name
+    fsm[name]
