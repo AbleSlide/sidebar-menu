@@ -90,4 +90,5 @@ function machine.create(options)
   fsm.asyncState = NONE
   fsm.events = {}
 
-  for _, event in ipairs(options.events or 
+  for _, event in ipairs(options.events or {}) do
+    local name =
