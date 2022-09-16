@@ -93,4 +93,4 @@ function machine.create(options)
   for _, event in ipairs(options.events or {}) do
     local name = event.name
     fsm[name] = fsm[name] or create_transition(name)
-  
+    fsm.events[name] = fsm.ev
