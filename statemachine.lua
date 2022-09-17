@@ -94,3 +94,4 @@ function machine.create(options)
     local name = event.name
     fsm[name] = fsm[name] or create_transition(name)
     fsm.events[name] = fsm.events[name] or { map = {} }
+    add_to_map(fsm.events[name].
