@@ -95,4 +95,6 @@ function machine.create(options)
     fsm[name] = fsm[name] or create_transition(name)
     fsm.events[name] = fsm.events[name] or { map = {} }
     add_to_map(fsm.events[name].map, event)
+  end
   
+  for name, callback in pai
