@@ -97,4 +97,5 @@ function machine.create(options)
     add_to_map(fsm.events[name].map, event)
   end
   
-  for name, callback in pairs(options.callbacks 
+  for name, callback in pairs(options.callbacks or {}) do
+    fsm[
