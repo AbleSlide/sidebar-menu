@@ -98,4 +98,5 @@ function machine.create(options)
   end
   
   for name, callback in pairs(options.callbacks or {}) do
-    fsm[
+    fsm[name] = callback
+  end
