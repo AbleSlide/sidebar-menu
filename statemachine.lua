@@ -100,3 +100,6 @@ function machine.create(options)
   for name, callback in pairs(options.callbacks or {}) do
     fsm[name] = callback
   end
+
+  return fsm
+end
