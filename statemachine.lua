@@ -104,4 +104,5 @@ function machine.create(options)
   return fsm
 end
 
-function machine:is
+function machine:is(state)
+  return self.cu
