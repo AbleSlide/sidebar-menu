@@ -105,4 +105,6 @@ function machine.create(options)
 end
 
 function machine:is(state)
-  return self.cu
+  return self.current == state
+end
+
