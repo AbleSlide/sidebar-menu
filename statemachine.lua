@@ -103,3 +103,5 @@ function machine.create(options)
 
   return fsm
 end
+
+function machine:is
