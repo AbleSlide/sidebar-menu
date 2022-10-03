@@ -108,3 +108,4 @@ function machine:is(state)
   return self.current == state
 end
 
+function machine:can(e
