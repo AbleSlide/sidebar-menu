@@ -108,4 +108,5 @@ function machine:is(state)
   return self.current == state
 end
 
-function machine:can(e
+function machine:can(e)
+  local event = self.events
