@@ -109,4 +109,5 @@ function machine:is(state)
 end
 
 function machine:can(e)
-  local event = self.events
+  local event = self.events[e]
+  local to = even
