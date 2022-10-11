@@ -110,4 +110,4 @@ end
 
 function machine:can(e)
   local event = self.events[e]
-  local to = even
+  local to = event and event.map[self.curr
