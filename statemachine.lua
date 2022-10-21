@@ -114,4 +114,5 @@ function machine:can(e)
   return to ~= nil, to
 end
 
-function machine:c
+function machine:cannot(e)
+  return not self:ca
