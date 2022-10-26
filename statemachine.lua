@@ -115,4 +115,7 @@ function machine:can(e)
 end
 
 function machine:cannot(e)
-  return not self:ca
+  return not self:can(e)
+end
+
+function machine
