@@ -120,4 +120,5 @@ end
 
 function machine:todot(filename)
   local dotfile = io.open(filename,'w')
-  dotfile:write('
+  dotfile:write('digraph {\n')
+ 
