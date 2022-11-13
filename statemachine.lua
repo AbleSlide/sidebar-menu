@@ -119,4 +119,4 @@ function machine:cannot(e)
 end
 
 function machine:todot(filename)
-  lo
+  local dotfile = io.open(
