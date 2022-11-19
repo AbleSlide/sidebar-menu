@@ -121,4 +121,4 @@ end
 function machine:todot(filename)
   local dotfile = io.open(filename,'w')
   dotfile:write('digraph {\n')
- 
+  local transition = function(event
