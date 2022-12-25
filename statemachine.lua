@@ -124,4 +124,5 @@ function machine:todot(filename)
   local transition = function(event,from,to)
     dotfile:write(string.format('%s -> %s [label=%s];\n',from,to,event))
   end
-  for _, event in pairs(self.options.events) d
+  for _, event in pairs(self.options.events) do
+    if type(event.from) =
