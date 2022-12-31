@@ -126,4 +126,4 @@ function machine:todot(filename)
   end
   for _, event in pairs(self.options.events) do
     if type(event.from) == 'table' then
-      for
+      for _, from in ipairs(event.from)
