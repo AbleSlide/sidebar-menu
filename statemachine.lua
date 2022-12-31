@@ -127,4 +127,6 @@ function machine:todot(filename)
   for _, event in pairs(self.options.events) do
     if type(event.from) == 'table' then
       for _, from in ipairs(event.from) do
-        transition(event.name,from,event.t
+        transition(event.name,from,event.to)
+      end
+    e
