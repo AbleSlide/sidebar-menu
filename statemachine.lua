@@ -129,4 +129,5 @@ function machine:todot(filename)
       for _, from in ipairs(event.from) do
         transition(event.name,from,event.to)
       end
-    e
+    else
+      transition(event.name,e
