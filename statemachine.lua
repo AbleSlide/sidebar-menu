@@ -130,4 +130,6 @@ function machine:todot(filename)
         transition(event.name,from,event.to)
       end
     else
-      transition(event.name,e
+      transition(event.name,event.from,event.to)
+    end
+ 
