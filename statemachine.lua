@@ -132,4 +132,5 @@ function machine:todot(filename)
     else
       transition(event.name,event.from,event.to)
     end
- 
+  end
+  dotfile:wr
