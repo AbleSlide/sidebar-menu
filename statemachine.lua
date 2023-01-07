@@ -133,4 +133,5 @@ function machine:todot(filename)
       transition(event.name,event.from,event.to)
     end
   end
-  dotfile:wr
+  dotfile:write('}\n')
+  dotfile:
