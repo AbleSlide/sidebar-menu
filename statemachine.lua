@@ -134,4 +134,7 @@ function machine:todot(filename)
     end
   end
   dotfile:write('}\n')
-  dotfile:
+  dotfile:close()
+end
+
+function 
