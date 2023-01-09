@@ -137,4 +137,5 @@ function machine:todot(filename)
   dotfile:close()
 end
 
-function 
+function machine:transition(event)
+  i
