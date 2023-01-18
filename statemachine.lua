@@ -143,4 +143,4 @@ function machine:transition(event)
   end
 end
 
-fun
+function machine:cancelTrans
