@@ -139,4 +139,4 @@ end
 
 function machine:transition(event)
   if self.currentTransitioningEvent == event then
-    return self[self.cur
+    return self[self.currentTransitioningEvent](s
