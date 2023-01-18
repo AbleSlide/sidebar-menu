@@ -138,4 +138,5 @@ function machine:todot(filename)
 end
 
 function machine:transition(event)
-  if self.currentTransitioningEvent == event th
+  if self.currentTransitioningEvent == event then
+    return self[self.cur
