@@ -143,4 +143,5 @@ function machine:transition(event)
   end
 end
 
-function machine:cancelTrans
+function machine:cancelTransition(event)
+  if self.cur
