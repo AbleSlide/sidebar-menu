@@ -144,4 +144,4 @@ function machine:transition(event)
 end
 
 function machine:cancelTransition(event)
-  if self.cur
+  if self.currentTransitioningEvent == event
