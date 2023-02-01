@@ -144,4 +144,5 @@ function machine:transition(event)
 end
 
 function machine:cancelTransition(event)
-  if self.currentTransitioningEvent == event
+  if self.currentTransitioningEvent == event then
+    self.asyncS
