@@ -146,4 +146,8 @@ end
 function machine:cancelTransition(event)
   if self.currentTransitioningEvent == event then
     self.asyncState = NONE
-    self.currentTransitioningEvent = n
+    self.currentTransitioningEvent = nil
+  end
+end
+
+machine.N
