@@ -146,4 +146,4 @@ end
 function machine:cancelTransition(event)
   if self.currentTransitioningEvent == event then
     self.asyncState = NONE
-   
+    self.currentTransit
