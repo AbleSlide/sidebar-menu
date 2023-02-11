@@ -150,4 +150,5 @@ function machine:cancelTransition(event)
   end
 end
 
-machine.N
+machine.NONE = NONE
+ma
