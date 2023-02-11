@@ -151,4 +151,6 @@ function machine:cancelTransition(event)
 end
 
 machine.NONE = NONE
-ma
+machine.ASYNC = ASYNC
+
+return mac
