@@ -153,4 +153,4 @@ end
 machine.NONE = NONE
 machine.ASYNC = ASYNC
 
-return mac
+return machine
