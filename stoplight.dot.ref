@@ -1,3 +1,4 @@
 digraph {
 green -> yellow [label=warn];
-yellow -> red [label=panic]
+yellow -> red [label=panic];
+red -> yellow [la
